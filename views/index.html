@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #000000;
+      }
+      h2 {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        font-size: 2rem;
+        font-weight: 300;
+        background: linear-gradient(to right, #ffffff, #ff33dd);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      .center-heading {
+        font-size: 5em;
+        height: 8rem;
+        font-weight: 900;
+        background: linear-gradient(to right, #c33ff3, #ff33dd);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      sub {
+        font-size: 2rem;
+        background: linear-gradient(to right, #f1f1f1, #e7e3e6);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      button {
+        font-size: large;
+        font-weight: bolder;
+        color: #ffffff;
+        background: linear-gradient(to right, #fc466b 0%, #ff56f4 100%);
+      }
+    </style>
+  </head>
+  <body class="flex flex-col h-screen justify-center items-center">
+    <h2>Saiyam Dubey</h2>
+    <div class="center-heading text-9xl">
+      <h1>Welcome to My Website <sub> Be A Man </sub></h1>
+    </div>
+
+    <div class="flex justify-center mt-8">
+      <a href="/login"
+        ><button class="bg-blue-500 px-6 py-2 rounded mr-4">Login</button></a
+      >
+      <a href="/signup"
+        ><button class="bg-green-500 px-6 py-2 rounded">Sign Up</button></a
+      >
+    </div>
+  </body>
+</html>
