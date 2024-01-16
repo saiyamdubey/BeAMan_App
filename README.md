@@ -2,6 +2,10 @@
 
 In this app i learned JWT_Authentication , Frontend , Server Side rendering , MVC File Pattern and more , this will show you how to work with the authurization of the permissions and Authentication , token creation in production App .
 
+## Preview Landing Simple Page
+
+![Preview](https://github.com/saiyamdubey/BeAMan_App/blob/a4cfc3c7a3c8fb3a652eac51a82f86f24fb5f976/views/Screenshot%202024-01-16%20235222.png)
+
 ## Overview
 
 This repository contains a sample implementation of JSON Web Token (JWT) authentication. JWT is a compact, URL-safe means of representing claims to be transferred between two parties. It is commonly used for authentication and authorization purposes in web applications.
